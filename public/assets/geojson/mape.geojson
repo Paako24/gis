@@ -1,0 +1,411 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Gotong Royong",
+            "location": "Jl. Semampir Indah 97 Sby"
+        },
+        "geometry": {
+            "coordinates": [112.78760237091353, -7.307531224730398],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Umum Daerah Haji Provinsi Jawa Timur",
+            "location": "Jl. Manyar Keroadi Sby"
+        },
+        "geometry": {
+            "coordinates": [112.77968439996322, -7.283330030283478],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Gigi dan Mulut Nala Husada - Universitas Hang Tuah Surabaya",
+            "location": "Jl. Arief Rahman Hakim No.150, Keputih, Kec. Sukolilo"
+        },
+        "geometry": {
+            "coordinates": [112.79526047631305, -7.291171162971575],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Onkologi Surabaya",
+            "location": "Jl. Arif Rahman Hakim 184"
+        },
+        "geometry": {
+            "coordinates": [112.7893779999816, -7.290787997696099],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Premier Surabaya",
+            "location": "Jl. Nginden Intan Barat No.Blok B, Nginden Jangkungan"
+        },
+        "geometry": {
+            "coordinates": [112.7652489999816, -7.304488897665532],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Umum Siloam Surabaya",
+            "location": "Jl. Raya Gubeng 70 Sby"
+        },
+        "geometry": {
+            "coordinates": [112.7464396999816, -7.274012862889045],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RS Husada Utama",
+            "location": "Jl. Mayjend Prof.Dr.Moestopo"
+        },
+        "geometry": {
+            "coordinates": [112.75631221777273, -7.264595162923756],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah sakit surabaya",
+            "location": "Ketabang, Kec. Genteng"
+        },
+        "geometry": {
+            "coordinates": [112.75208897053379, -7.257472897770143],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Royal Hospital Surabaya",
+            "location": "Jl. Rungkut Industri I No.1, Kendangsari, Kec. Tenggilis Mejoyo"
+        },
+        "geometry": {
+            "coordinates": [112.75085345887716, -7.328992532536846],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RS Bhayangkara Surabaya H.S Samsoeri Mertojoso",
+            "location": "Jl. Ahmad Yani No.116, Ketintang, Kec. Gayungan"
+        },
+        "geometry": {
+            "coordinates": [112.73151102329484, -7.324684967459863],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RSIA Putri Surabaya",
+            "location": "Jl. Arif Rahman Hakim No.122"
+        },
+        "geometry": {
+            "coordinates": [112.7826922576523, -7.290960183870051],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Universitas Airlangga (RS UNAIR)",
+            "location": "Jl. Prof.Dr.Moestopo 47"
+        },
+        "geometry": {
+            "coordinates": [112.78484889384706, -7.269884588713017],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Adi Husada Undaan",
+            "location": "Jl. Undaan Wetan 40-44"
+        },
+        "geometry": {
+            "coordinates": [112.74586584108599, -7.251624232594361],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RSIA Lombok Dua Dua Surabaya",
+            "location": "Jl. Lombok 22 Sby"
+        },
+        "geometry": {
+            "coordinates": [112.74895102329485, -7.278483993170462],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Medical Center Institut Teknologi Sepuluh Nopember",
+            "location": "PQ5V+R4V, Jl. Arif Rahman Hakim, Kompleks Poliklinik Kampus ITS, Keputih"
+        },
+        "geometry": {
+            "coordinates": [112.79280037053381, -7.29038707204036],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Islam Surabaya",
+            "location": "Jl. Raya Manyar No.9, Manyar Sabrangan"
+        },
+        "geometry": {
+            "coordinates": [112.73497250040718, -7.306384610130848],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Manyar Medical Centre",
+            "location": "Jl. Raya Manyar No.9, Manyar Sabrangan, Kec. Mulyorejo"
+        },
+        "geometry": {
+            "coordinates": [112.76345718172342, -7.289913232566017],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "big hospital surabaya",
+            "location": "Ketabang, Kec. Genteng"
+        },
+        "geometry": {
+            "coordinates": [112.75208427666833, -7.257473562950242],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Surabaya Medical Service (RS SMS)",
+            "location": "Jl. Kapuas No.2 Surabaya"
+        },
+        "geometry": {
+            "coordinates": [112.7414959999816, -7.289053337166722],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Unit Gawat Darurat Khusus kasus Onkologi Rumah Sakit Onkologi Surabaya",
+            "location": "Jl. Galaxy Bumi Permai No.A2 No 7, Keputih"
+        },
+        "geometry": {
+            "coordinates": [112.78940547053382, -7.290710567434581],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Khusus Infeksi Universitas Airlangga",
+            "location": "Kampus C Unair, Jl. Mulyorejo, Mulyorejo"
+        },
+        "geometry": {
+            "coordinates": [112.78614439998161, -7.2702101932256396],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit RSIA Pura Raharja",
+            "location": "Jl. Pucang Adi Xii/14 Sby"
+        },
+        "geometry": {
+            "coordinates": [112.75286965887717, -7.2829708674288165],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RS Manyar",
+            "location": "Jl. Raya Manyar No.9, Manyar Sabrangan"
+        },
+        "geometry": {
+            "coordinates": [112.76364575887717, -7.289940462829962],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RS TNI AU Soemitro",
+            "location": "Jl. Serayu 1 Sby"
+        },
+        "geometry": {
+            "coordinates": [112.74086235887717, -7.291515062824138],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RSUD Husada Prima",
+            "location": "Jl. Karang Tembok No.39"
+        },
+        "geometry": {
+            "coordinates": [112.74650468832498, -7.224149432614598],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RSIA IBI Surabaya",
+            "location": "Jl.Dupak N0.15 A Sby"
+        },
+        "geometry": {
+            "coordinates": [112.72785363556392, -7.245351997796995],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "IGD RSU Haji, Sukolilo, Surabaya, Jawa Timur.",
+            "location": "Jl. Manyar Keroadi Sby"
+        },
+        "geometry": {
+            "coordinates": [112.77992141777277, -7.282694762856851],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Tk.III Brawijaya",
+            "location": "Jl. Ksatrian 17 Sby"
+        },
+        "geometry": {
+            "coordinates": [112.72326974722054, -7.297131232560653],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit DKT Gubeng Pojok",
+            "location": "Jl. Gubeng Pojok Sby"
+        },
+        "geometry": {
+            "coordinates": [112.75160793556391, -7.265124637078054],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RSIA Kendangsari MERR Surabaya",
+            "location": "Jl. Dr. Ir. H. Soekarno No.2, Kalijudan"
+        },
+        "geometry": {
+            "coordinates": [112.78371337666833, -7.250511702214432],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "IGD Rumah Sakit Umum Haji Surabaya",
+            "location": "Jl. Manyar Kertoadi No.1, Klampis Ngasem, Kec. Sukolilo"
+        },
+        "geometry": {
+            "coordinates": [112.77968185887718, -7.283331727996292],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "UGD Siloam Hospital Surabaya",
+            "location": "Jl. Raya Gubeng No.70, Gubeng, Kec. Gubeng"
+        },
+        "geometry": {
+            "coordinates": [112.74665609998159, -7.274170462888469],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Umum Daerah Dr. Mohamad Soewandhie",
+            "location": "Jl. Tambakrejo 45-47 Sby"
+        },
+        "geometry": {
+            "coordinates": [112.75800447053385, -7.245977393386857],
+            "type": "Point"
+        }
+
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rumah Sakit Islam Jemursari",
+            "location": "Jl.Jemursari 51-57"
+        },
+        "geometry": {
+            "coordinates": [112.73976565887718, -7.322637062708297],
+            "type": "Point"
+        }
+
+    }]
+}
