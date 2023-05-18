@@ -19,15 +19,8 @@
      </style>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark" style="padding: 20px;">
-        <a href="" class="navbar-brand" style="font-size: 25px;"> Persebaran Pelayanan Kesehatan di Surabaya, Gresik dan Sidoarjo</a>
-        <h1></h1>
-    </nav>
-   
-
     <div id="map" style="margin: 20px;"></div>
 </body>
-
 
 <script>
     var map = L.map('map').setView([-7.3105686,112.7888708], 10.4);

@@ -18,15 +18,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/gis', function () {
+    return view('layout.gis');
+});
+
+
 Route::get('/home', function () {
-    return view('home');
-});
-
-
-Route::get('/sidebar', function () {
-    return view('sidebar');
-});
-
-Route::get('/layout', function () {
-    return view('layout-default');
+    return view('layout.home');
 });
