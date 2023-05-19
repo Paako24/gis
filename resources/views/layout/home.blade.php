@@ -76,8 +76,8 @@
             <ul class="menu">
               <li class="sidebar-title">Menu</li>
 
-              <li class="sidebar-item active">
-                <a href="index.html" class="sidebar-link">
+              <li class="sidebar-item {{ ($daerah == "semua") ? 'active' : ''}}">
+                <a href="{{route('home')}}" class="sidebar-link">
                   <i class="bi bi-grid-fill"></i>
                   <span>Semua</span>
                 </a>
@@ -85,48 +85,91 @@
 
               <li class="sidebar-title">Daerah</li>
 
-              <li class="sidebar-item">
-                <a href="application-email.html" class="sidebar-link">
+              <li class="sidebar-item has-sub {{ ($daerah == "surabaya") ? 'active' : ''}}">
+                <a href="#" class="sidebar-link">
                   <i class="bi bi-map-fill"></i>
                   <span>Surabaya</span>
                 </a>
+
+                <ul class="submenu {{ ($daerah == "surabaya") ? 'active' : ''}}">
+                  <li class="submenu-item {{ (($daerah == "surabaya") && ($jenis == "rs")) ? 'active' : ''}}">
+                    <a href="{{route('surabaya.rs')}}" class="submenu-link"
+                      >Rumah Sakit</a
+                    >
+                  </li>
+
+                  <li class="submenu-item {{ (($daerah == "surabaya") && ($jenis == "puskesmas")) ? 'active' : ''}}">
+                    <a href="{{route('surabaya.puskesmas')}}" class="submenu-link"
+                      >Puskesmas</a
+                    >
+                  </li>
+
+                  <li class="submenu-item {{ (($daerah == "surabaya") && ($jenis == "apotek")) ? 'active' : ''}}">
+                    <a
+                      href="{{route('surabaya.apotek')}}"
+                      class="submenu-link"
+                      >Apotek</a
+                    >
+                  </li>
+                </ul>
               </li>
 
-              <li class="sidebar-item">
-                <a href="application-chat.html" class="sidebar-link">
+              <li class="sidebar-item has-sub {{ ($daerah == "sidoarjo") ? 'active' : ''}}">
+                <a href="#" class="sidebar-link">
                   <i class="bi bi-map-fill"></i>
                   <span>Sidoarjo</span>
                 </a>
+
+                <ul class="submenu {{ ($daerah == "sidoarjo") ? 'active' : ''}}">
+                  <li class="submenu-item {{ (($daerah == "sidoarjo") && ($jenis == "rs")) ? 'active' : ''}}">
+                    <a href="{{route('sidoarjo.rs')}}" class="submenu-link"
+                      >Rumah Sakit</a
+                    >
+                  </li>
+
+                  <li class="submenu-item {{ (($daerah == "sidoarjo") && ($jenis == "puskesmas")) ? 'active' : ''}}">
+                    <a href="{{route('sidoarjo.puskesmas')}}" class="submenu-link"
+                      >Puskesmas</a
+                    >
+                  </li>
+
+                  <li class="submenu-item {{ (($daerah == "sidoarjo") && ($jenis == "apotek")) ? 'active' : ''}}">
+                    <a
+                      href="{{route('sidoarjo.apotek')}}"
+                      class="submenu-link"
+                      >Apotek</a
+                    >
+                  </li>
+                </ul>
               </li>
 
-              <li class="sidebar-item">
-                <a href="application-gallery.html" class="sidebar-link">
+              <li class="sidebar-item has-sub {{ ($daerah == "gresik") ? 'active' : ''}}">
+                <a href="#" class="sidebar-link">
                   <i class="bi bi-map-fill"></i>
                   <span>Gresik</span>
                 </a>
-              </li>
 
-              <li class="sidebar-title">Pelayanan Kesehatan</li>
+                <ul class="submenu {{ ($daerah == "gresik") ? 'active' : ''}}">
+                  <li class="submenu-item {{ (($daerah == "gresik") && ($jenis == "rs")) ? 'active' : ''}}">
+                    <a href="{{route('gresik.rs')}}" class="submenu-link"
+                      >Rumah Sakit</a
+                    >
+                  </li>
 
-              <li class="sidebar-item">
-                <a href="application-email.html" class="sidebar-link">
-                  <i class="bi bi-hospital-fill"></i>
-                  <span>Rumah Sakit</span>
-                </a>
-              </li>
+                  <li class="submenu-item {{ (($daerah == "gresik") && ($jenis == "puskesmas")) ? 'active' : ''}}">
+                    <a href="{{route('gresik.puskesmas')}}" class="submenu-link"
+                      >Puskesmas</a
+                    >
+                  </li>
 
-              <li class="sidebar-item">
-                <a href="application-chat.html" class="sidebar-link">
-                  <i class="bi bi-hospital-fill"></i>
-                  <span>???</span>
-                </a>
-              </li>
-
-              <li class="sidebar-item">
-                <a href="application-gallery.html" class="sidebar-link">
-                  <i class="bi bi-hospital-fill"></i>
-                  <span>???</span>
-                </a>
+                  <li class="submenu-item {{ (($daerah == "gresik") && ($jenis == "apotek")) ? 'active' : ''}}">
+                    <a
+                      href="{{route('gresik.apotek')}}"
+                      class="submenu-link"
+                      >Apotek</a
+                    >
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>

@@ -3,409 +3,477 @@
     "features": [{
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "Rumah Sakit Gotong Royong",
-            "location": "Jl. Semampir Indah 97 Sby"
+            "location": "Jl. Semampir Indah 97 Sby",
+            "image" : "https://1.bp.blogspot.com/-MgImYKgfyWA/YYiYYBjLobI/AAAAAAAAT_Y/RlB2n8Cq1AYn50HWhCTfmQXkvES6-QxyACLcBGAsYHQ/s600/RS%2BGotong%2BRoyong%2BJadwal%2BPraktek%2BDokter.jpg",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.78760237091353, -7.307531224730398],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "Rumah Sakit Umum Daerah Haji Provinsi Jawa Timur",
-            "location": "Jl. Manyar Keroadi Sby"
+            "location": "Jl. Manyar Keroadi Sby",
+            "image" : "https://rsuhaji.jatimprov.go.id/images/profil/profil.jpg",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.77968439996322, -7.283330030283478],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "Rumah Sakit Gigi dan Mulut Nala Husada - Universitas Hang Tuah Surabaya",
-            "location": "Jl. Arief Rahman Hakim No.150, Keputih, Kec. Sukolilo"
+            "location": "Jl. Arief Rahman Hakim No.150, Keputih, Kec. Sukolilo",
+            "image" : "https://hangtuah.ac.id/wp-content/uploads/2018/03/KML_5245.jpg",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.79526047631305, -7.291171162971575],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "Rumah Sakit Onkologi Surabaya",
-            "location": "Jl. Arif Rahman Hakim 184"
+            "location": "Jl. Arif Rahman Hakim 184",
+            "image" : "https://medicaltourism.id/wp-content/uploads/2021/09/rss.jpg",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.7893779999816, -7.290787997696099],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "Rumah Sakit Premier Surabaya",
-            "location": "Jl. Nginden Intan Barat No.Blok B, Nginden Jangkungan"
+            "location": "Jl. Nginden Intan Barat No.Blok B, Nginden Jangkungan",
+            "image" : "https://ramsaysimedarby.co.id/webarq/cfind/source/images/surabaya/rumah-sakit-premier-surabaya.jpg",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.7652489999816, -7.304488897665532],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "Rumah Sakit Umum Siloam Surabaya",
-            "location": "Jl. Raya Gubeng 70 Sby"
+            "location": "Jl. Raya Gubeng 70 Sby",
+            "image" : "https://mysiloam-api.siloamhospitals.com/public-asset/website-cms/website-cms-16273625340386876.jpg",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.7464396999816, -7.274012862889045],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "RS Husada Utama",
-            "location": "Jl. Mayjend Prof.Dr.Moestopo"
+            "location": "Jl. Mayjend Prof.Dr.Moestopo",
+            "image" : "https://kominfo.jatimprov.go.id/uploads/photonews/16/08/6c309a9f6e07c95c39c851d19bd3254f.jpg",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.75631221777273, -7.264595162923756],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "Rumah sakit surabaya",
-            "location": "Ketabang, Kec. Genteng"
+            "location": "Ketabang, Kec. Genteng",
+            "image" : ".",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.75208897053379, -7.257472897770143],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "Royal Hospital Surabaya",
-            "location": "Jl. Rungkut Industri I No.1, Kendangsari, Kec. Tenggilis Mejoyo"
+            "location": "Jl. Rungkut Industri I No.1, Kendangsari, Kec. Tenggilis Mejoyo",
+            "image" : "https://d1ojs48v3n42tp.cloudfront.net/provider_locations/183226_14-5-2019_23-26-49.jpg",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.75085345887716, -7.328992532536846],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "surabaya",
             "name": "RS Bhayangkara Surabaya H.S Samsoeri Mertojoso",
-            "location": "Jl. Ahmad Yani No.116, Ketintang, Kec. Gayungan"
+            "location": "Jl. Ahmad Yani No.116, Ketintang, Kec. Gayungan",
+            "image" : "https://cms.sehatq.com/cdn-cgi/image/f=auto/public/img/hospital_thumb/rs-bhayangkara-surabaya-h-s-samsoeri-mertojoso-HCFH00001530.jpg",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.73151102329484, -7.324684967459863],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "RSIA Putri Surabaya",
-            "location": "Jl. Arif Rahman Hakim No.122"
+            "location": "Jl. Arif Rahman Hakim No.122",
+            "image" : "https://rsputri.com/wp-content/uploads/2016/05/depan.jpg",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.7826922576523, -7.290960183870051],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "Rumah Sakit Universitas Airlangga (RS UNAIR)",
-            "location": "Jl. Prof.Dr.Moestopo 47"
+            "location": "Jl. Dharmahusada Permai, Mulyorejo, Kec. Mulyorejo, Surabaya, Jawa Timur 60115",
+            "image" : "https://medicaltourism.id/wp-content/uploads/2021/03/dengan-logo.jpg",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.78484889384706, -7.269884588713017],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "Rumah Sakit Adi Husada Undaan",
-            "location": "Jl. Undaan Wetan 40-44"
+            "location": "Jl. Undaan Wetan 40-44",
+            "image" : "https://memorandum.co.id/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-06-at-15.59.22.jpeg",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.74586584108599, -7.251624232594361],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "RSIA Lombok Dua Dua Surabaya",
-            "location": "Jl. Lombok 22 Sby"
+            "location": "Jl. Lombok 22 Sby",
+            "image" : "https://res.cloudinary.com/dk0z4ums3/image/upload/w_667,h_431,c_fill,dpr_2.0/v1662518238/hospital_image/Foto-RSIA-Lombok-Dua-Dua-Lontar-Surabaya.JPG-b45227f3-dd46-4557-a3b4-28d1e035291d.jpg",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.74895102329485, -7.278483993170462],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "Medical Center Institut Teknologi Sepuluh Nopember",
-            "location": "PQ5V+R4V, Jl. Arif Rahman Hakim, Kompleks Poliklinik Kampus ITS, Keputih"
+            "location": "PQ5V+R4V, Jl. Arif Rahman Hakim, Kompleks Poliklinik Kampus ITS, Keputih",
+            "image" : "https://www.its.ac.id/wp-content/uploads/2021/04/Medical-Center-1.jpg",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.79280037053381, -7.29038707204036],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "Rumah Sakit Islam Surabaya",
-            "location": "Jl. Raya Manyar No.9, Manyar Sabrangan"
+            "location": "Jl. Raya Manyar No.9, Manyar Sabrangan",
+            "image" : "https://kfmap.asia/storage/thumbs/storage/photos/ID.SRB.HO.PKUM1/ID.SRB.HO.PKUM1_1.jpg",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.73497250040718, -7.306384610130848],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "Rumah Sakit Manyar Medical Centre",
-            "location": "Jl. Raya Manyar No.9, Manyar Sabrangan, Kec. Mulyorejo"
+            "location": "Jl. Raya Manyar No.9, Manyar Sabrangan, Kec. Mulyorejo",
+            "image" : "https://rsmmcsby.co.id/_assets/assets/img/about.jpg",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.76345718172342, -7.289913232566017],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "big hospital surabaya",
-            "location": "Ketabang, Kec. Genteng"
+            "location": "Ketabang, Kec. Genteng",
+            "image" : ".",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.75208427666833, -7.257473562950242],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "Rumah Sakit Surabaya Medical Service (RS SMS)",
-            "location": "Jl. Kapuas No.2 Surabaya"
+            "location": "Jl. Kapuas No.2 Surabaya",
+            "image" : "https://goalkes-images.s3-ap-southeast-1.amazonaws.com/hospitals/v61sCqLfGLie4SZ2sq29nwlH2cUdNbkLmBoW1fgg.jpg",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.7414959999816, -7.289053337166722],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "sidoarjo",
             "name": "Unit Gawat Darurat Khusus kasus Onkologi Rumah Sakit Onkologi Surabaya",
-            "location": "Jl. Galaxy Bumi Permai No.A2 No 7, Keputih"
+            "location": "Jl. Galaxy Bumi Permai No.A2 No 7, Keputih",
+            "image" : "https://ion.co.id/wp-content/uploads/2022/04/image0-14.jpeg",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.78940547053382, -7.290710567434581],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "Rumah Sakit Khusus Infeksi Universitas Airlangga",
-            "location": "Kampus C Unair, Jl. Mulyorejo, Mulyorejo"
+            "location": "Kampus C Unair, Jl. Mulyorejo, Mulyorejo",
+            "image" : "https://rsubhaktirahayusurabaya.com/gallery_gen/925881772a134917f60a95b7089825cc_993x500.jpg",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.78614439998161, -7.2702101932256396],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "Rumah Sakit RSIA Pura Raharja",
-            "location": "Jl. Pucang Adi Xii/14 Sby"
+            "location": "Jl. Pucang Adi Xii/14 Sby",
+            "image" : "https://www.garnesia.com/images/vendor/v4333.jpg",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.75286965887717, -7.2829708674288165],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "RS Manyar",
-            "location": "Jl. Raya Manyar No.9, Manyar Sabrangan"
+            "location": "Jl. Raya Manyar No.9, Manyar Sabrangan",
+            "image" : "https://tourism.surabaya.go.id/storage/tour/1655202787_1.jpg",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.76364575887717, -7.289940462829962],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "RS TNI AU Soemitro",
-            "location": "Jl. Serayu 1 Sby"
+            "location": "Jl. Serayu 1 Sby",
+            "image" : ".",
+            "jenis" : "rs"
         },
         "geometry": {
             "coordinates": [112.74086235887717, -7.291515062824138],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "RSUD Husada Prima",
-            "location": "Jl. Karang Tembok No.39"
+            "location": "Jl. Karang Tembok No.39",
+            "image" : ".",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.74650468832498, -7.224149432614598],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "RSIA IBI Surabaya",
-            "location": "Jl.Dupak N0.15 A Sby"
+            "location": "Jl.Dupak N0.15 A Sby",
+            "image" : "https://rsausoemitro.com/wp-content/uploads/2021/07/WhatsApp-Image-2020-05-06-at-11.16.03.jpeg",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.72785363556392, -7.245351997796995],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "IGD RSU Haji, Sukolilo, Surabaya, Jawa Timur.",
-            "location": "Jl. Manyar Keroadi Sby"
+            "location": "Jl. Manyar Keroadi Sby",
+            "image" : "https://scontent.fsub5-2.fna.fbcdn.net/v/t39.30808-6/277567132_495190285359791_3951318946996167616_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFV20si6JFcYxCkpF2AYrNOQonurIXIau5Cie6shchq7m_VYcur9vEKu4JMOSTr6MHF3JhJbyGNXO8Jl5cg9sGN&_nc_ohc=ZE8pzyDZpNMAX8G260v&_nc_oc=AQkL3WH6hdtu0n5zGiziQQzbKkmY2afLofroUC-jJReThiTk7opsW-2XRQ8h8bR2Jws&_nc_zt=23&_nc_ht=scontent.fsub5-2.fna&oh=00_AfA4cuVV2Gr6C6HbhRmSJBaEdRqTsSu48k9gyCWyiymwbw&oe=646BD531",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.77992141777277, -7.282694762856851],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "Rumah Sakit Tk.III Brawijaya",
-            "location": "Jl. Ksatrian 17 Sby"
+            "location": "Jl. Ksatrian 17 Sby",
+            "image" : "https://static.guesehat.com/static/directories_thumb/98599_Rumah_Sakit_Ibu_dan_Anak_IBI_Surabaya.jpg",
+            "jenis" : "apotek"
         },
         "geometry": {
             "coordinates": [112.72326974722054, -7.297131232560653],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "Rumah Sakit DKT Gubeng Pojok",
-            "location": "Jl. Gubeng Pojok Sby"
+            "location": "Jl. Gubeng Pojok Sby",
+            "image" : ".",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.75160793556391, -7.265124637078054],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "RSIA Kendangsari MERR Surabaya",
-            "location": "Jl. Dr. Ir. H. Soekarno No.2, Kalijudan"
+            "location": "Jl. Dr. Ir. H. Soekarno No.2, Kalijudan",
+            "image" : "https://www.rsbrawijaya.id/admin/img/slider/rs%20dengan%20awan2.jpg",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.78371337666833, -7.250511702214432],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "IGD Rumah Sakit Umum Haji Surabaya",
-            "location": "Jl. Manyar Kertoadi No.1, Klampis Ngasem, Kec. Sukolilo"
+            "location": "Jl. Manyar Kertoadi No.1, Klampis Ngasem, Kec. Sukolilo",
+            "image" : "https://rumkitbansurabaya.co.id/assets/images/upload/slider11.jpg",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.77968185887718, -7.283331727996292],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "UGD Siloam Hospital Surabaya",
-            "location": "Jl. Raya Gubeng No.70, Gubeng, Kec. Gubeng"
+            "location": "Jl. Raya Gubeng No.70, Gubeng, Kec. Gubeng",
+            "image" : "https://merr.kendangsari.com/wp-content/uploads/2015/04/gedung-MERR-slice.png",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.74665609998159, -7.274170462888469],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "Rumah Sakit Umum Daerah Dr. Mohamad Soewandhie",
-            "location": "Jl. Tambakrejo 45-47 Sby"
+            "location": "Jl. Tambakrejo 45-47 Sby",
+            "image" : ".",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.75800447053385, -7.245977393386857],
             "type": "Point"
         }
-
     }, 
     {
         "type": "Feature",
         "properties": {
+            "daerah" : "gresik",
             "name": "Rumah Sakit Islam Jemursari",
-            "location": "Jl.Jemursari 51-57"
+            "location": "Jl.Jemursari 51-57",
+            "image" : ".",
+            "jenis" : "puskesmas"
         },
         "geometry": {
             "coordinates": [112.73976565887718, -7.322637062708297],
             "type": "Point"
         }
-
     }]
 }

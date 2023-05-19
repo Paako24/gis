@@ -19,7 +19,7 @@
      </style>
 </head>
 <body>
-    <div id="map" style="margin: 20px;"></div>
+    <div id="map"></div>
 </body>
 
 <script>
@@ -43,15 +43,23 @@
         iconUrl: 'assets/icons/hospital.png',
         iconSize:     [38, 48], // size of the icon
     });
+    var apotekIcon = L.icon({
+        iconUrl: 'assets/icons/apotek.png',
+        iconSize:     [38, 48], // size of the icon
+    });
+    var puskesmasIcon = L.icon({
+        iconUrl: 'assets/icons/puskesmas.png',
+        iconSize:     [38, 48], // size of the icon
+    });
 
     //geojson polygon
     $.getJSON('assets/geojson/map.geojson', function(json){
         function getColor(d){
-                return  d == 3 ? '#800026':
-                        d == 2 ? '#FC4E2A':
-                        d == 1 ? '#FED976': 
-                                '#E31A1C';
-            }
+            return  d == 3 ? '#800026':
+                    d == 2 ? '#FC4E2A':
+                    d == 1 ? '#FED976': 
+                            '#E31A1C';
+        }
 
         geoLayer = L.geoJson(json, {
             style: function(feature){
@@ -79,10 +87,30 @@
    
     //geojson titik
     $.getJSON('assets/geojson/mape.geojson', function (data) {
-        L.geoJSON(data, {
+        function daerahFilter(feature) {
+            if("{{ $daerah }}" == "semua"){
+                return true
+            }else if((feature.properties.daerah == "{{ $daerah }}") && (feature.properties.jenis == "{{ $jenis }}")) {
+                return true
+            }
+        }
+
+        function getIcon(d){
+            if(d == "rs"){
+                return hospitalIcon;
+            }else if(d == "apotek"){
+                return apotekIcon;
+            }else if(d == "puskesmas"){
+                return puskesmasIcon;
+            }
+        }
+
+        geoPoint = L.geoJSON(data, {
+            filter: daerahFilter,
+
             pointToLayer: function (feature, latlng) {
                 return L.marker(latlng, {
-                    icon: hospitalIcon
+                    icon: getIcon(feature.properties.jenis)
                 });
             },
 
@@ -90,7 +118,9 @@
                 var properties = feature.properties;
 
                 // Membuat popup dengan informasi titik
-                var popupContent = "<strong>Nama Rumah Sakit :</strong> " + "<br>" + properties.name +
+                var popupContent = 
+                    "<img  src=" + properties.image + " style=height:" + 100 + "px />" +
+                    "<br><br><strong>Nama Rumah Sakit :</strong> " + "<br>" + properties.name +
                     "<br><br><strong>Alamat :</strong> "  + "<br>" + properties.location;
                 layer.bindPopup(popupContent);
             }
