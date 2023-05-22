@@ -2525,21 +2525,6 @@
             "type": "Feature",
             "properties": {
                 "daerah" : "sidoarjo",
-                "name": "Puskesmas Barengkrajan",
-                "location": "Jl. Barengkrajan, Sidorono, Sidorejo, Kec. Krian, Kabupaten Sidoarjo, Jawa Timur 61262",
-                "image" : "https://sobatsehat.id/wp-content/uploads/2019/03/PKMDANRSJATIM-1.png",
-                "telp" : "-",
-                "jenis" : "puskesmas"
-            },
-            "geometry": {
-                "coordina112.606560997335, -7.379149353365534tes": [],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "daerah" : "sidoarjo",
                 "name": "Puskesmas Buduran",
                 "location": "Jl. Jawa No.2, Banarmelati, Wadungasih, Kec. Buduran, Kabupaten Sidoarjo, Jawa Timur 61252",
                 "image" : "https://pembuatancompanyprofile.com/wp-content/uploads/2018/10/Screen-Shot-2018-10-11-at-9.16.22-AM.png",
@@ -2563,21 +2548,6 @@
             },
             "geometry": {
                 "coordinates": [112.71143415692556, -7.481746528298924],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "daerah" : "sidoarjo",
-                "name": "Puskesmas Ganting",
-                "location": "Jl. Singo Menggolo No.1, Dusun Malang Ganting, Ganting, Kec. Gedangan, Kabupaten Sidoarjo, Jawa Timur 61254",
-                "image" : "https://lh5.googleusercontent.com/p/AF1QipOvuHwafV7JX5ToUzvmtQT3Uv6GYvktcfzSeEJe=w408-h408-k-no",
-                "telp" : "-",
-                "jenis" : "puskesmas"
-            },
-            "geometry": {
-                "coordina112.70077827097921, -7.403258735464421tes": [],
                 "type": "Point"
             }
         },
@@ -2653,36 +2623,6 @@
             },
             "geometry": {
                 "coordinates": [112.6260274684461, -7.509256531065026],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "daerah" : "sidoarjo",
-                "name": "Puskesmas Krian",
-                "location": "Jl. Setiabudi No.7, RW.9, Krian, Kec. Krian, Kabupaten Sidoarjo, Jawa Timur 61262",
-                "image" : "https://www.menpan.go.id/site/images/krian.png",
-                "telp" : "-",
-                "jenis" : "puskesmas"
-            },
-            "geometry": {
-                "coordina112.58336363657695, -7.410449099790772tes": [],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "daerah" : "sidoarjo",
-                "name": "Puskesmas Medaeng",
-                "location": "Jl. Joyoboyo No.49 A, Bungur, Medaeng, Kec. Waru, Kabupaten Sidoarjo, Jawa Timur 61256",
-                "image" : "https://yt3.googleusercontent.com/ytc/AGIKgqPQBGFk52KPu07OMfpzQr_0eUxjkWTuzmo8vux-Ng=s900-c-k-c0x00ffffff-no-rj",
-                "telp" : "-",
-                "jenis" : "puskesmas"
-            },
-            "geometry": {
-                "coordina112.72031710759234, -7.356256894025543tes": [],
                 "type": "Point"
             }
         },
@@ -3133,21 +3073,6 @@
             },
             "geometry": {
                 "coordinates": [112.59725529766773, -7.240256651825066],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "daerah" : "gresik",
-                "name": "PUSKESMAS KESAMBEN KULON",
-                "location": "Jl. Kesamben Kulon No.184, Grenjengan, Sooko, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176",
-                "image" : "https://pbs.twimg.com/profile_images/1249790733621407746/Cqw-PBC9_400x400.jpg",
-                "telp" : "-",
-                "jenis" : "puskesmas"
-            },
-            "geometry": {
-                "coordina112.5080914908088, -7.352846276695148tes": [],
                 "type": "Point"
             }
         },
