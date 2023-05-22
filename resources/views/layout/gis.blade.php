@@ -20,16 +20,35 @@
      </style>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark" style="padding: 20px;">
-        <a href="" class="navbar-brand" style="font-size: 25px;">daerah = {{ $daerah }}, jenis = {{ $jenis }}</a>
-        <h1></h1>
-    </nav>
-   
     <div id="map"></div>
 </body>
 
 <script>
-    var map = L.map('map').setView([-7.3105686,112.7888708], 11);
+    function getPointView() {
+        if("{{ $daerah }}" == "semua"){
+            return [-7.32133346974441, 112.64985975111422]
+        }else if("{{ $daerah }}" == "surabaya"){
+            return [-7.297142876815875, 112.73428302786982]
+        }if("{{ $daerah }}" == "sidoarjo"){
+            return [-7.483039911996294, 112.69239765346325]
+        }if("{{ $daerah }}" == "gresik"){
+            return [-7.3021132385688015, 112.65822636034464]
+        }
+    }
+
+    function getZoomView(){
+        if("{{ $daerah }}" == "semua"){
+            return 10
+        }else if("{{ $daerah }}" == "surabaya"){
+            return 12
+        }if("{{ $daerah }}" == "sidoarjo"){
+            return 11.4
+        }if("{{ $daerah }}" == "gresik"){
+            return 10
+        }
+    }
+
+    var map = L.map('map').setView(getPointView(), getZoomView());
     map.createPane('labels');
 
   
@@ -58,11 +77,11 @@
     });
     var puskesmasIcon = L.icon({
         iconUrl: 'assets/icons/puskesmas.png',
-        iconSize:     [38, 48], // size of the icon
+        iconSize:     [30, 35], // size of the icon
     })
     var klinikIcon = L.icon({
         iconUrl: 'assets/icons/klinik.png',
-        iconSize:     [38, 48], // size of the icon
+        iconSize:     [30, 35], // size of the icon
     });
 
     //geojson polygon
@@ -101,7 +120,7 @@
     //geojson titik
     $.getJSON('assets/geojson/mapTitik.geojson', function (data) {
         function daerahFilter(feature) {
-            if("{{ $daerah }}" == "semua" && ("{{ $jenis }}" == "semua")){
+            if("{{ $daerah }}" == "semua"){
                 return true
             }else if((feature.properties.daerah == "{{ $daerah }}") && ("{{ $jenis }}" == "semua")) {
                 return true
@@ -136,7 +155,8 @@
                 var popupContent = 
                     "<img  src=" + properties.image + " style=height:" + 100 + "px />" +
                     "<br><br><strong>Nama Rumah Sakit :</strong> " + "<br>" + properties.name +
-                    "<br><br><strong>Alamat :</strong> "  + "<br>" + properties.location;
+                    "<br><br><strong>Alamat :</strong> " + "<br>" + properties.location +
+                    "<br><br><strong>Telp :</strong> " + "<br>" + properties.telp;
                 layer.bindPopup(popupContent);
             }
         }).addTo(map);
