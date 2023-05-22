@@ -66,6 +66,11 @@
 
                             <ul class="submenu {{ ($daerah == "surabaya") ? 'active' : ''}}">
                                 <li
+                                    class="submenu-item {{ (($daerah == "surabaya") && ($jenis == "semua")) ? 'active' : ''}}">
+                                    <a href="{{route('surabaya')}}" class="submenu-link">Semua</a>
+                                </li>
+
+                                <li
                                     class="submenu-item {{ (($daerah == "surabaya") && ($jenis == "rs")) ? 'active' : ''}}">
                                     <a href="{{route('surabaya.rs')}}" class="submenu-link" >Rumah Sakit</a>
                                 </li>
@@ -76,8 +81,8 @@
                                 </li>
 
                                 <li
-                                    class="submenu-item {{ (($daerah == "surabaya") && ($jenis == "apotek")) ? 'active' : ''}}">
-                                    <a href="{{route('surabaya.apotek')}}" class="submenu-link">Apotek</a>
+                                    class="submenu-item {{ (($daerah == "surabaya") && ($jenis == "klinik")) ? 'active' : ''}}">
+                                    <a href="{{route('surabaya.klinik')}}" class="submenu-link">Klinik</a>
                                 </li>
                             </ul>
                         </li>
@@ -90,6 +95,11 @@
 
                             <ul class="submenu {{ ($daerah == "sidoarjo") ? 'active' : ''}}">
                                 <li
+                                    class="submenu-item {{ (($daerah == "sidoarjo") && ($jenis == "semua")) ? 'active' : ''}}">
+                                    <a href="{{route('sidoarjo')}}" class="submenu-link">Semua</a>
+                                </li>
+
+                                <li
                                     class="submenu-item {{ (($daerah == "sidoarjo") && ($jenis == "rs")) ? 'active' : ''}}">
                                     <a href="{{route('sidoarjo.rs')}}" class="submenu-link">Rumah Sakit</a>
                                 </li>
@@ -100,8 +110,8 @@
                                 </li>
 
                                 <li
-                                    class="submenu-item {{ (($daerah == "sidoarjo") && ($jenis == "apotek")) ? 'active' : ''}}">
-                                    <a href="{{route('sidoarjo.apotek')}}" class="submenu-link">Apotek</a>
+                                    class="submenu-item {{ (($daerah == "sidoarjo") && ($jenis == "klinik")) ? 'active' : ''}}">
+                                    <a href="{{route('sidoarjo.klinik')}}" class="submenu-link">Klinik</a>
                                 </li>
                             </ul>
                         </li>
@@ -114,6 +124,11 @@
 
                             <ul class="submenu {{ ($daerah == "gresik") ? 'active' : ''}}">
                                 <li
+                                    class="submenu-item {{ (($daerah == "gresik") && ($jenis == "semua")) ? 'active' : ''}}">
+                                    <a href="{{route('gresik')}}" class="submenu-link">Semua</a>
+                                </li>
+
+                                <li
                                     class="submenu-item {{ (($daerah == "gresik") && ($jenis == "rs")) ? 'active' : ''}}">
                                     <a href="{{route('gresik.rs')}}" class="submenu-link">Rumah Sakit</a>
                                 </li>
@@ -124,8 +139,8 @@
                                 </li>
 
                                 <li
-                                    class="submenu-item {{ (($daerah == "gresik") && ($jenis == "apotek")) ? 'active' : ''}}">
-                                    <a href="{{route('gresik.apotek')}}" class="submenu-link">Apotek</a>
+                                    class="submenu-item {{ (($daerah == "gresik") && ($jenis == "klinik")) ? 'active' : ''}}">
+                                    <a href="{{route('gresik.klinik')}}" class="submenu-link">Klinik</a>
                                 </li>
                             </ul>
                         </li>

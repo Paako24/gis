@@ -20,14 +20,17 @@ Route::get('/', function () {
 
 Route::get('home', [HomeController::class, 'home'])->name('home');
 
+Route::get('surabaya', [HomeController::class, 'surabaya'])->name('surabaya');
 Route::get('surabaya-rs', [HomeController::class, 'surabayaRs'])->name('surabaya.rs');
 Route::get('surabaya-puskesmas', [HomeController::class, 'surabayaPuskesmas'])->name('surabaya.puskesmas');
-Route::get('surabaya-apotek', [HomeController::class, 'surabayaApotek'])->name('surabaya.apotek');
+Route::get('surabaya-klinik', [HomeController::class, 'surabayaKlinik'])->name('surabaya.klinik');
 
+Route::get('sidoarjo', [HomeController::class, 'sidoarjo'])->name('sidoarjo');
 Route::get('sidoarjo-rs', [HomeController::class, 'sidoarjoRs'])->name('sidoarjo.rs');
 Route::get('sidoarjo-puskesmas', [HomeController::class, 'sidoarjoPuskesmas'])->name('sidoarjo.puskesmas');
-Route::get('sidoarjo-apotek', [HomeController::class, 'sidoarjoApotek'])->name('sidoarjo.apotek');
+Route::get('sidoarjo-klinik', [HomeController::class, 'sidoarjoKlinik'])->name('sidoarjo.klinik');
 
+Route::get('gresik', [HomeController::class, 'gresik'])->name('gresik');
 Route::get('gresik-rs', [HomeController::class, 'gresikRs'])->name('gresik.rs');
 Route::get('gresik-puskesmas', [HomeController::class, 'gresikPuskesmas'])->name('gresik.puskesmas');
-Route::get('gresik-apotek', [HomeController::class, 'gresikApotek'])->name('gresik.apotek');
+Route::get('gresik-klinik', [HomeController::class, 'gresikKlinik'])->name('gresik.klinik');
