@@ -1,0 +1,13 @@
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: rgb(30,30,45);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: aliceblue;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #ffffff;
+}
