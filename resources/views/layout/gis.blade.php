@@ -20,6 +20,11 @@
      </style>
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-dark" style="padding: 20px;">
+        <a href="" class="navbar-brand" style="font-size: 25px;">daerah = {{ $daerah }}, jenis = {{ $jenis }}</a>
+        <h1></h1>
+    </nav>
+   
     <div id="map"></div>
 </body>
 
@@ -51,8 +56,8 @@
         iconUrl: 'assets/icons/hospital.png',
         iconSize:     [30, 35], // size of the icon
     });
-    var apotekIcon = L.icon({
-        iconUrl: 'assets/icons/apotek.png',
+    var puskesmasIcon = L.icon({
+        iconUrl: 'assets/icons/puskesmas.png',
         iconSize:     [38, 48], // size of the icon
     })
     var klinikIcon = L.icon({
@@ -96,7 +101,9 @@
     //geojson titik
     $.getJSON('assets/geojson/mapTitik.geojson', function (data) {
         function daerahFilter(feature) {
-            if("{{ $daerah }}" == "semua"){
+            if("{{ $daerah }}" == "semua" && ("{{ $jenis }}" == "semua")){
+                return true
+            }else if((feature.properties.daerah == "{{ $daerah }}") && ("{{ $jenis }}" == "semua")) {
                 return true
             }else if((feature.properties.daerah == "{{ $daerah }}") && (feature.properties.jenis == "{{ $jenis }}")) {
                 return true
@@ -106,8 +113,8 @@
         function getIcon(d){
             if(d == "rs"){
                 return hospitalIcon;
-            }else if(d == "apotek"){
-                return apotekIcon;
+            }else if(d == "puskesmas"){
+                return puskesmasIcon;
             }else if(d == "klinik"){
                 return klinikIcon;
             }
@@ -149,8 +156,8 @@
     info.update = function (props) {
         this._div.innerHTML = '<h4>Keterangan </h4>' + 
             "<img src='assets/icons/hospital.png'</img>" + '<a> Rumah Sakit</a>' + "<br>" +
-            "<img src='assets/icons/klinik.png'</img>" + '<a> Klinik</a>' + "<br>" +
-            "<img src='assets/icons/apotek.png'</img>" + '<a> Apotek</a>';
+            "<img src='assets/icons/puskesmas.png'</img>" + '<a> Puskesmas</a>' + "<br>" +
+            "<img src='assets/icons/klinik.png'</img>" + '<a> Klinik</a>';
     };
 
     info.addTo(map);

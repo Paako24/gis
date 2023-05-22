@@ -13,6 +13,13 @@ class HomeController extends Controller
         return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
     }
 
+    public function surabaya()
+    {
+        $daerah = "surabaya";
+        $jenis = "semua";
+        return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
+    }
+
     public function surabayaRs()
     {
         $daerah = "surabaya";
@@ -27,10 +34,17 @@ class HomeController extends Controller
         return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
     }
 
-    public function surabayaApotek()
+    public function surabayaKlinik()
     {
         $daerah = "surabaya";
-        $jenis = "apotek";
+        $jenis = "klinik";
+        return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
+    }
+
+    public function sidoarjo()
+    {
+        $daerah = "sidoarjo";
+        $jenis = "semua";
         return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
     }
 
@@ -48,13 +62,19 @@ class HomeController extends Controller
         return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
     }
 
-    public function sidoarjoApotek()
+    public function sidoarjoKlinik()
     {
         $daerah = "sidoarjo";
-        $jenis = "apotek";
+        $jenis = "klinik";
         return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
     }
 
+    public function gresik()
+    {
+        $daerah = "gresik";
+        $jenis = "semua";
+        return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
+    }
     public function gresikRs()
     {
         $daerah = "gresik";
@@ -69,10 +89,10 @@ class HomeController extends Controller
         return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
     }
 
-    public function gresikApotek()
+    public function gresikKlinik()
     {
         $daerah = "gresik";
-        $jenis = "apotek";
+        $jenis = "klinik";
         return view('layout.home', ['daerah' => $daerah, 'jenis' => $jenis]);
     }
 }
