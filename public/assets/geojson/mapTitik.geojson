@@ -4355,21 +4355,6 @@
             "type": "Feature",
             "properties": {
                 "daerah" : "gresik",
-                "name": "Klinik Utama Semen Gresik Tuban",
-                "location": "JL Raya Bogorejo, Ds. Bogorejo, Kec. Tuban, 62351, Kuthi, Bogorejo, Merakurak, Tuban Regency, East Java 62355",
-                "image" : "https://pr1.nicelocal.id/vqsnVotdevTvF5UWeTPqbg/2400x1080,q75/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2cTqFJR6LymG8z3mFnkHc-jHL75d8caZTxa4DxwN4IiTcBOKIgYHf7F_44T5VBTNsA",
-                "telp" : "(031) 70953980",
-                "jenis" : "klinik"
-            },
-            "geometry": {
-                "coordinates": [112.01245470438751, -6.885114604799644],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "daerah" : "gresik",
                 "name": "Klinik Tiga Putra Medika Menganti",
                 "location": "jl. raya sidomulyo no 121, kav 4 5, Sidowungu, Hulaan, Menganti, Gresik Regency, East Java 61174",
                 "image" : "https://pr0.nicelocal.id/prD6jzxgDOK_rsG2N8wufw/1120x700,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2Tc70WHDV6E6sEypfkPqCzPYgxQFRwZDl-vIMFphVJYIlcnTDxQAMDnMUTfxwOojGQ",

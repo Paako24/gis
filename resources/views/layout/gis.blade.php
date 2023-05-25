@@ -28,23 +28,23 @@
         if("{{ $daerah }}" == "semua"){
             return [-7.32133346974441, 112.64985975111422]
         }else if("{{ $daerah }}" == "surabaya"){
-            return [-7.297142876815875, 112.73428302786982]
+            return [-7.2743984,112.7282269]
         }if("{{ $daerah }}" == "sidoarjo"){
-            return [-7.483039911996294, 112.69239765346325]
+            return [-7.4463146,112.6498906]
         }if("{{ $daerah }}" == "gresik"){
-            return [-7.3021132385688015, 112.65822636034464]
+            return [-7.1318156,112.4912539]
         }
     }
 
     function getZoomView(){
         if("{{ $daerah }}" == "semua"){
-            return 10
+            return 10.2
         }else if("{{ $daerah }}" == "surabaya"){
-            return 12
+            return 12.4
         }if("{{ $daerah }}" == "sidoarjo"){
-            return 11.4
+            return 11.56
         }if("{{ $daerah }}" == "gresik"){
-            return 10
+            return 11
         }
     }
 
@@ -68,7 +68,7 @@
             attribution: '©OpenStreetMap, ©CartoDB',
             pane: 'labels'
     }).addTo(map);
-
+    
   
     // marker
     var hospitalIcon = L.icon({
@@ -153,8 +153,8 @@
 
                 // Membuat popup dengan informasi titik
                 var popupContent = 
-                    "<img  src=" + properties.image + " style=height:" + 100 + "px />" +
-                    "<br><br><strong>Nama Rumah Sakit :</strong> " + "<br>" + properties.name +
+                    "<img  src=" + properties.image + " style=height:" + 150 + "px />" +
+                    "<br><br><strong>Nama :</strong> " + "<br>" + properties.name +
                     "<br><br><strong>Alamat :</strong> " + "<br>" + properties.location +
                     "<br><br><strong>Telp :</strong> " + "<br>" + properties.telp;
                 layer.bindPopup(popupContent);
